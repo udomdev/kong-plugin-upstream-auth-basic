@@ -14,7 +14,7 @@ luarocks install kong-plugin-upstream-auth-basic
 ```
 4. Add the custom plugin to the `kong.conf` file (e.g. `/etc/kong/kong.conf`)
 ```
-custom_plugins = ...,upstream-auth-basic
+plugins = bundles,upstream-auth-basic
 ```
 5. Restart kong
 
